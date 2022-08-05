@@ -323,3 +323,15 @@ footer button:active {
   
 }
 
+/*product_description**********************/
+:is(.product_description, th, td){
+  border: 2px solid var(--btn-bg-clr);
+  padding: 0.2rem;
+  width: 100%;
+}
+.product_description {
+  border-collapse: collapse;
+}
+.prod-description {
+  padding: 3rem;
+}
